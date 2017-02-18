@@ -1,0 +1,31 @@
+{
+  "name": "zero-config/preacher-plugin-commonmark",
+  "type": "preacher-plugin",
+  "description": "CommonMark plugin for Preacher",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jan-Marten de Boer",
+      "email": "github@johmanx.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "/home/johmanx/git/Preacher-Installer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.0",
+    "symfony/symfony": "^3.2.4",
+    "zero-config/preacher-installer": "dev-master as 1.0.0",
+    "zero-config/preacher": "dev-master as 2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZeroConfig\\Preacher\\Plugin\\CommonMark\\": "src"
+    }
+  }
+}
