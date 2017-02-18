@@ -1,5 +1,5 @@
 <?php
-namespace ZeroConfig\Preacher\Plugin\CommonMark;
+namespace ZeroConfig\Preacher\Plugin\CommonMark\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
