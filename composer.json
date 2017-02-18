@@ -27,5 +27,8 @@
     "psr-4": {
       "ZeroConfig\\Preacher\\Plugin\\CommonMark\\": "src"
     }
+  },
+  "extra": {
+    "class": "\\ZeroConfig\\Preacher\\Plugin\\CommonMark\\PreacherCommonMarkBundle"
   }
 }
