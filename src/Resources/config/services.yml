@@ -1,3 +1,9 @@
 services:
+
+  preacher.common_mark.converter:
+    class: League\CommonMark\CommonMarkConverter
+
   preacher.source_reader:
-    class: stdClass
+    class: ZeroConfig\Preacher\Plugin\CommonMark\Renderer\MarkdownSourceReader
+    arguments:
+      - '@preacher.common_mark.converter'
