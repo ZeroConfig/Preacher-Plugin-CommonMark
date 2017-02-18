@@ -15,6 +15,8 @@ class PreacherCommonMarkExtension extends Extension
      * @param ContainerBuilder $container
      *
      * @return void
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function load(array $configs, ContainerBuilder $container)
     {
